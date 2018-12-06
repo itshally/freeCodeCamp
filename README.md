@@ -5,9 +5,9 @@ freeCodeCamp is a non-profit organization that consists of an interactive learni
 ---
 
 ## Responsive Web Design Projects
-Project Name | Files
---- | ---
-Tribute Page | [View Files]()
-Survey Form | [View Files]()
-Product Landing Page | [View Files]()
-Technical Documentation Page | [View Files]()
+Project Name | Instruction | Files | Preview
+--- | --- | --- | ---
+Tribute Page | [Read Here]( https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-projects/build-a-survey-form) | [View Files]() | [Demo](https://codepen.io/itshally/pen/mzrOrx)
+Survey Form | [Read Here](https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-projects/build-a-survey-form) | [View Files]() | [Demo](https://codepen.io/itshally/full/RepaYg/)
+Product Landing Page | [Read Here](https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-projects/build-a-product-landing-page) | [View Files]() | [Demo](https://codepen.io/itshally/pen/JmZeQJ)
+Technical Documentation Page | [Read Here](https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-projects/build-a-technical-documentation-page) | [View Files]() | [Demo](https://codepen.io/itshally/pen/jQMMgq)
