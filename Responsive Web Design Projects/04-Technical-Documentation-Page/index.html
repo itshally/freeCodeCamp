@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- AUTHOR'S NOTE:
+            - I honestly do not own all the contents that I used for this page. 
+            - Source: Oracle - https://docs.oracle.com/javase/tutorial/
+        -->
+        <title>Technical Page</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="author" content="itshally">
+        <meta name="description" content="This is a technical page.">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Varela" rel="stylesheet">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	</head>
+	<body>
+        <!-- header part -->
+        <div class="container header-container">
+            <h1 class="navbar-brand"><i class="fab fa-java"></i> The Java<sup>TM</sup> Tutorials</h1>
+        </div>
+        
+        <!-- page contents -->
+		<div class="container-fluid tech-page-container">
+            <div class="row">
+			<!-- sidebar container -->
+                <div class="col">
+                    <div class="container-fluid" id="nav-container">
+                    <nav class="navbar navbar-expand-xl navbar-light">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarlinks" aria-controls="navbarlinks" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse flex-column" id="navbarlinks">
+                            <span>Getting Started: Table of Contents</span>
+                            <!-- sidebar links / table of contents -->
+                            <ul class="navbar-nav mr-auto flex-column">
+                                <li class="nav-item"><a href="#Java_Technology_Phenomenon"><i class="fas fa-angle-right"></i> The Java Technology Phenomenon</a>
+                                    <ul class="navbar-bar">
+                                        <li class="nav-item"><a href="#About_the_Java_Technology"><i class="fas fa-angle-double-right"></i> About the Java Technology</a></li>
+                                        <li class="nav-item"><a href="#What_Can_Java_Technology_Do"><i class="fas fa-angle-double-right"></i> What Can Java Technology Do?</a></li>
+                                        <li class="nav-item"><a href="#How_Will_Java_Technology_Change_My_Life"><i class="fas fa-angle-double-right"></i> How Will Java Technology Change My Life?</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item"><a href="#The_Hello_World_Application"><i class="fas fa-angle-right"></i> The "Hello World!" Application</a>
+                                    <ul class="navbar-bar">
+                                        <li class="nav-item"><a href="#Netbeans_IDE"><i class="fas fa-angle-double-right"></i> "Hello World!" for the NetBeans IDE</a></li>
+                                        <li class="nav-item"><a href="#Microsoft_Windows"><i class="fas fa-angle-double-right"></i> "Hello World!" for Microsoft Windows</a></li>
+                                        <li class="nav-item"><a href="#SolarisOS_and_Linux"><i class="fas fa-angle-double-right"></i> "Hello World!" for Solaris OS and Linux</a></li>
+                                    </ul>
+                                </li>
+                             </ul>
+                         </div>
+                    </nav>
+                    </div> <!-- end of nav-container -->
+                </div><!-- end of first column -->
+                
+			<!-- main container -->
+                <div class="col">
+			         <div class="container-fluid" id="main-doc">
+                         
+                        <!-- First Section: Java Technology Phenomenon -->
+                            <section class="main-section" id="Java_Technology_Phenomenon">
+                                <h2> Lesson: The Java Technology Phenomenon</h2>
+                                <p>Talk about Java technology seems to be everywhere, but what exactly is it? The following sections explain how Java technology is both a programming language and a platform, and provide an overview of what this technology can do for you.</p>
+                                <ul>
+                                    <li><a href="#About_the_Java_Technology" class="section-links-list">About the Java Technology</a></li>
+                                    <li><a href="#What_Can_Java_Technology_Do" class="section-links-list">What Can Java Technology Do?</a></li>
+                                    <li><a href="#How_Will_Java_Technology_Change_My_Life" class="section-links-list">How Will Java Technology Change My Life?</a></li>
+                                </ul>
+                                
+                                <!-- first article -->
+                                <article id="About_the_Java_Technology">
+                                    <h3>About the Java Technology</h3>
+                                    <p>Java technology is both a programming language and a platform.</p>
+                                    
+                                    <h4>The Java Programming Language</h4>
+                                    <p>The Java programming language is a high-level language that can be characterized by all of the following buzzwords:</p>
+                                    <table id="buzzwords-table">
+                                        <tr>
+                                            <td>Simple</td>
+                                            <td>Architecture neutral</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Object oriented</td>
+                                            <td>Portable</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Distributed</td>
+                                            <td>High performance</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Multithreaded</td>
+                                            <td>Robust</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Dynamic</td>
+                                            <td>Secure</td>
+                                        </tr>
+                                    </table><br>
+                                    <p>Each of the preceding buzzwords is explained in <a href="https://www.oracle.com/technetwork/java/langenv-140151.html" target="_blank" class="section-links">The Java Language Environment</a> , a white paper written by James Gosling and Henry McGilton.</p>
+                                    
+                                    <p>In the Java programming language, all source code is first written in plain text files ending with the <code>.java</code> extension. Those source files are then compiled into <code>.class</code> files by the <code>javac</code> compiler. A <code>.class</code> file does not contain code that is native to your processor; it instead contains <em>bytecodes</em> — the machine language of the Java Virtual Machine<sup>1</sup> (Java VM). The <code>java</code> launcher tool then runs your application with an instance of the Java Virtual Machine.</p>
+                                    
+                                    <img src="https://docs.oracle.com/javase/tutorial/figures/getStarted/getStarted-compiler.gif">
+                                    <figcaption>An overview of the software development process.</figcaption>
+                                    
+                                    <p>Because the Java VM is available on many different operating systems, the same <code>.class</code> files are capable of running on Microsoft Windows, the Solaris<sup>TM</sup> Operating System (Solaris OS), Linux, or Mac OS. Some virtual machines, such as the <a href="https://www.oracle.com/technetwork/java/javase/tech/index-jsp-136373.html" target="_blank" class="section-links">Java SE HotSpot at a Glance</a>, perform additional steps at runtime to give your application a performance boost. This includes various tasks such as finding performance bottlenecks and recompiling (to native code) frequently used sections of code.</p>
+                                    
+                                    <img src="https://docs.oracle.com/javase/tutorial/figures/getStarted/helloWorld.gif">
+                                    <figcaption>Through the Java VM, the same application is capable of running on multiple platforms.</figcaption>
+                                    
+                                    <h5>The Java Platform</h5>
+                                    
+                                    <p>A <em>platform</em> is the hardware or software environment in which a program runs. We've already mentioned some of the most popular platforms like Microsoft Windows, Linux, Solaris OS, and Mac OS. Most platforms can be described as a combination of the operating system and underlying hardware. The Java platform differs from most other platforms in that it's a software-only platform that runs on top of other hardware-based platforms.</p>
+                                    
+                                    <p>The Java platform has two components:</p>
+                                    <ul>
+                                        <li>The <em>Java Virtual Machine</em></li>
+                                        <li>The <em>Java Application Programming Interface</em> (API)</li>
+                                    </ul>
+                                    
+                                    <p>You've already been introduced to the Java Virtual Machine; it's the base for the Java platform and is ported onto various hardware-based platforms.</p>
+                                    
+                                    <p>The API is a large collection of ready-made software components that provide many useful capabilities. It is grouped into libraries of related classes and interfaces; these libraries are known as <em>packages</em>. The next section, <a href="#What_Can_Java_Technology_Do" class="section-links">What Can Java Technology Do?</a> highlights some of the functionality provided by the API.</p>
+                                    
+                                    <img src="https://docs.oracle.com/javase/tutorial/figures/getStarted/getStarted-jvm.gif">
+                                    <figcaption>The API and Java Virtual Machine insulate the program from the underlying hardware.</figcaption>
+                                    
+                                    <p>As a platform-independent environment, the Java platform can be a bit slower than native code. However, advances in compiler and virtual machine technologies are bringing performance close to that of native code without threatening portability.</p>
+                                    
+                                    <p class="hover-text">The terms"Java Virtual Machine" and "JVM" mean a Virtual Machine for the Java platform.</p>
+                                </article>
+                                
+                                <!-- second article -->
+                                <article id="What_Can_Java_Technology_Do">
+                                    <h3>What Can Java Technology Do?</h3>
+                                    <p>The general-purpose, high-level Java programming language is a powerful software platform. Every full implementation of the Java platform gives you the following features:</p>
+                                    <ul>
+                                        <li><b>Development Tools</b>: The development tools provide everything you'll need for compiling, running, monitoring, debugging, and documenting your applications. As a new developer, the main tools you'll be using are the <code>javac</code> compiler, the <code>java</code> launcher, and the <code>javadoc</code> documentation tool.</li>
+                                        <li><b>Application Programming Interface (API)</b>: The API provides the core functionality of the Java programming language. It offers a wide array of useful classes ready for use in your own applications. It spans everything from basic objects, to networking and security, to XML generation and database access, and more. The core API is very large; to get an overview of what it contains, consult the <a href="https://docs.oracle.com/javase/8/docs/index.html" target="_blank" class="section-links">Java Platform Standard Edition 8 Documentation</a>.</li>
+                                        <li><b>Deployment Technologies</b>: The JDK software provides standard mechanisms such as the Java Web Start software and Java Plug-In software for deploying your applications to end users.</li>
+                                        <li><b>User Interface Toolkits</b>: The JavaFX, Swing, and Java 2D toolkits make it possible to create sophisticated Graphical User Interfaces (GUIs).</li>
+                                        <li><b>Integration Libraries</b>: Integration libraries such as the Java IDL API, JDBC API, Java Naming and Directory Interface (JNDI) API, Java RMI, and Java Remote Method Invocation over Internet Inter-ORB Protocol Technology (Java RMI-IIOP Technology) enable database access and manipulation of remote objects.</li>
+                                    </ul>
+                                </article>
+                                
+                                <!-- third article -->
+                                <article id="How_Will_Java_Technology_Change_My_Life">
+                                    <h3>How Will Java Technology Change My Life?</h3>
+                                    <p>We can't promise you fame, fortune, or even a job if you learn the Java programming language. Still, it is likely to make your programs better and requires less effort than other languages. We believe that Java technology will help you do the following:</p>
+                                    <ul>
+                                        <li><b>Get started quickly</b>: Although the Java programming language is a powerful object-oriented language, it's easy to learn, especially for programmers already familiar with C or C++.</li>
+                                        <li><b>Write less code</b>: Comparisons of program metrics (class counts, method counts, and so on) suggest that a program written in the Java programming language can be four times smaller than the same program written in C++.</li>
+                                        <li><b>Write better code</b>: The Java programming language encourages good coding practices, and automatic garbage collection helps you avoid memory leaks. Its object orientation, its JavaBeans<sup>TM</sup> component architecture, and its wide-ranging, easily extendible API let you reuse existing, tested code and introduce fewer bugs.</li>
+                                        <li><b>Develop programs more quickly</b>: The Java programming language is simpler than C++, and as such, your development time could be up to twice as fast when writing in it. Your programs will also require fewer lines of code.</li>
+                                        <li><b>Avoid platform dependencies</b>: You can keep your program portable by avoiding the use of libraries written in other languages.</li>
+                                        <li><b>Write once, run anywhere</b>: Because applications written in the Java programming language are compiled into machine-independent bytecodes, they run consistently on any Java platform.</li>
+                                        <li><b>Distribute software more easily</b>: With Java Web Start software, users will be able to launch your applications with a single click of the mouse. An automatic version check at startup ensures that users are always up to date with the latest version of your software. If an update is available, the Java Web Start software will automatically update their installation.</li>
+                                    </ul>
+                                </article>
+                            </section>
+                        
+                        <!-- Second Section: The "Hello World!" Application -->
+                            <section class="main-section" id="The_Hello_World_Application">
+                            <h2>Lesson: The <q>Hello World!</q> Application</h2>
+                            <p>The sections listed below provide detailed instructions for compiling and running a simple "Hello World!" application. The first section provides information on getting started with the NetBeans IDE, an integrated development environment that greatly simplifies the software development process. The NetBeans IDE runs on all of the platforms listed below. The remaining sections provide platform-specific instructions for getting started without an integrated development environment. If you run into problems, be sure to consult the common problems section; it provides solutions for many issues encountered by new users.</p>
+                            
+                            <p><a href="#Netbeans_IDE" class="section-links">"Hello World!" for the NetBeans IDE</a> These instructions are for users of the NetBeans IDE. The NetBeans IDE runs on the Java platform, which means that you can use it with any operating system for which there is a JDK 7 available. These operating systems include Microsoft Windows, Solaris OS, Linux, and Mac OS X. We recommend using the NetBeans IDE instead of the command line whenever possible.</p>
+                            
+                            <p><a href="#Microsoft_Windows" class="section-links">"Hello World!" for Microsoft Windows</a> These command-line instructions are for users of Windows XP Professional, Windows XP Home, Windows Server 2003, Windows 2000 Professional, and Windows Vista.</p>
+                            
+                            <p><a href="#SolarisOS_and_Linux" class="section-links">"Hello World!" for Solaris OS and Linux</a> These command-line instructions are for users of Solaris OS and Linux. <a href="https://docs.oracle.com/javase/tutorial/getStarted/problems/index.html" target="_blank" class="section-links">Common Problems (and Their Solutions</a>) Consult this page if you have problems compiling or running your application.</p>
+
+                                <!-- first article -->
+                                <article id="Netbeans_IDE">
+                                    <h3>"Hello World!" for the NetBeans IDE</h3>
+                                    <p>It's time to write your first application! These detailed instructions are for users of the NetBeans IDE. The NetBeans IDE runs on the Java platform, which means that you can use it with any operating system for which there is a JDK available. These operating systems include Microsoft Windows, Solaris OS, Linux, and Mac OS X.</p>
+                                    <ul>
+                                        <li><a href="#A_Checklist_Netbeans_IDE" class="section-links">A Checklist</a></li>
+                                        <li><a href="#Creating_Your_First_Application_Netbeans_IDE" class="section-links">Creating Your First Application</a>
+                                            <ul>
+                                                <li><a href="#Create_an_IDE_Project" class="section-links">Create an IDE Project</a></li>
+                                                <li><a href="#Add_JDK_8" class="section-links">Add JDK 8 to the Platform List (if necessary)</a></li>
+                                                <li><a href="#Add_Code" class="section-links">Add Code to the Generated Source File</a></li>
+                                                <li><a href="#Compile_the_Source_File_Netbeans_IDE" class="section-links">Compile the Source File</a></li>
+                                                <li><a href="#Run_the_Program_Netbeans_IDE" class="section-links">Run the Program</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#Continuing_the_Tutorial" class="section-links">Continuing the Tutorial with the NetBeans IDE</a></li>
+                                    </ul>
+                                    
+                                    <hr>
+                                    <!-- Checklist Part for Netbeans IDE -->
+                                    <h4 id="A_Checklist_Netbeans_IDE">A Checklist <i class="fas fa-clipboard-check"></i></h4>
+                                    <p>To write your first program, you'll need:</p>
+                                    <ol>
+                                        <li><b>The Java SE Development Kit (JDK 7 has been selected in this example)</b>
+                                            <ul>
+                                                <li>For Microsoft Windows, Solaris OS, and Linux: <a href="https://www.oracle.com/technetwork/java/javase/downloads/index.html" target="_blank" class="section-links">Java SE Downloads Index</a> page</li>
+                                                <li>For Mac OS X: <a href="https://developer.apple.com/" target="_blank" class="section-links">developer.apple.com</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><b>The NetBeans IDE</b>
+                                            <ul>
+                                                <li>For all platforms: <a href="https://netbeans.org/downloads/index.html" target="_blank" class="section-links">NetBeans IDE Downloads Index</a> page</li>
+                                            </ul>
+                                        </li>
+                                    </ol>
+                                    
+                                    <hr>
+                                    
+                                    <!-- Creating your first application with Netbeans IDE -->
+                                    <h4 id="Creating_Your_First_Application_Netbeans_IDE">Creating Your First Application</h4>
+                                    <p>Your first application, <code>HelloWorldApp</code>, will simply display the greeting "Hello World!" To create this program, you will:</p>
+                                    <ul>
+                                        <li>
+                                            <b>Create an IDE project</b>
+                                            <p>When you create an IDE project, you create an environment in which to build and run your applications. Using IDE projects eliminates configuration issues normally associated with developing on the command line. You can build or run your application by choosing a single menu item within the IDE.</p>
+                                        </li>
+                                        <li><b>Add code to the generated source file</b>
+                                            <p>A source file contains code, written in the Java programming language, that you and other programmers can understand. As part of creating an IDE project, a skeleton source file will be automatically generated. You will then modify the source file to add the "Hello World!" message.</p>
+                                        </li>
+                                        <li><b>Compile the source file into a .class file</b>
+                                            <p>The IDE invokes the Java programming language <em>compiler</em> (<code>javac</code>), which takes your source file and translates its text into instructions that the Java virtual machine can understand. The instructions contained within this file are known as <em>bytecodes</em>.</p>
+                                        </li>
+                                        <li><b>Run the program</b>
+                                            <p>The IDE invokes the Java application <em>launcher tool</em> (<code>java</code>), which uses the Java virtual machine to run your application.</p>
+                                        </li>
+                                    </ul>
+                                    
+                                    <!-- Create an IDE Project with Netbeans IDE -->
+                                    <h5 id="Create_an_IDE_Project"><strong>Create an IDE Project</strong></h5>
+                                    <p>To create an IDE project:</p>
+                                    <ol>
+                                        <li>Launch the NetBeans IDE.
+                                            <ul>
+                                                <li>On Microsoft Windows systems, you can use the NetBeans IDE item in the Start menu.</li>
+                                                <li>On Solaris OS and Linux systems, you execute the IDE launcher script by navigating to the IDE's <code>bin</code> directory and typing .<code>/netbeans</code>.</li>
+                                                <li>On Mac OS X systems, click the NetBeans IDE application icon.</li>
+                                            </ul>
+                                        </li>
+                                        <li>In the NetBeans IDE, choose <strong>File</strong> | <strong>New Project</strong>....
+                                            <img src="https://docs.oracle.com/javase/tutorial/figures/getStarted/nb-javatutorial-newprojectmenu.png">
+                                            <figcaption>NetBeans IDE with the File | New Project menu item selected.</figcaption>
+                                        </li>
+                                        <li>In the <strong>New Project</strong> wizard, expand the <strong>Java</strong> category and select <strong>Java Application</strong> as shown in the following figure:
+                                            <img src="https://docs.oracle.com/javase/tutorial/figures/getStarted/nb-javatutorial-project1.png">
+                                            <figcaption>NetBeans IDE, New Project wizard, Choose Project page.</figcaption>
+                                        </li>
+                                        <li>In the <strong>Name and Location</strong> page of the wizard, do the following (as shown in the figure below):
+                                            <ul>
+                                                <li>In the <strong>Project Name</strong> field, type <code>Hello World App</code>.</li>
+                                                <li>In the <strong>Create Main Class</strong> field, type <code>helloworldapp.HelloWorldApp</code>.
+                                                    <img src="https://docs.oracle.com/javase/tutorial/figures/getStarted/nb-javatutorial-project2.png">
+                                                    <figcaption>NetBeans IDE, New Project wizard, Name and Location page.</figcaption>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>Click Finish.</li>
+                                    </ol>
+                                    
+                                    <p>The project is created and opened in the IDE. You should see the following components:</p>
+                                    <ul>
+                                        <li>The <strong>Projects</strong> window, which contains a tree view of the components of the project, including source files, libraries that your code depends on, and so on.</li>
+                                        <li>The <strong>Source Editor</strong> window with a file called <code>HelloWorldApp.java</code> open.</li>
+                                        <li>The <strong>Navigator</strong> window, which you can use to quickly navigate between elements within the selected class.</li>
+                                        <img src="https://docs.oracle.com/javase/tutorial/figures/getStarted/nb-javatutorial-project-opened.png">
+                                        <figcaption>NetBeans IDE with the HelloWorldApp project open.</figcaption>
+                                    </ul>
+                                    
+                                    <hr>
+                                    
+                                    <!-- Add JDK 8 -->
+                                    <h5 id="Add_JDK_8"><strong>Add JDK 8 to the Platform List (if necessary)</strong></h5>
+                                    <p>It may be necessary to add JDK 8 to the IDE's list of available platforms. To do this, choose Tools | Java Platforms as shown in the following figure:</p>
+                                    
+                                    <img src="https://docs.oracle.com/javase/tutorial/figures/getStarted/nb-javatutorial-platform-manager.png">
+                                    <figcaption>Selecting the Java Platform Manager from the Tools Menu</figcaption>
+                                    
+                                    <p>If you don't see JDK 8 (which might appear as 1.8 or 1.8.0) in the list of installed platforms, click <strong>Add Platform</strong>, navigate to your JDK 8 install directory, and click <strong>Finish</strong>. You should now see this newly added platform:</p>
+                                    
+                                    <img src="https://docs.oracle.com/javase/tutorial/figures/getStarted/nb-javatutorial-add-platform.png">
+                                    <figcaption>The Java Platform Manager</figcaption>
+                                    
+                                    <p>To set this JDK as the default for all projects, you can run the IDE with the <code>--jdkhome</code> switch on the command line, or by entering the path to the JDK in the <code>netbeans_j2sdkhome</code> property of your <code>INSTALLATION_DIRECTORY/etc/netbeans.conf</code> file.</p>
+                                    
+                                    <p>To specify this JDK for the current project only, select <strong>Hello World App</strong> in the <strong>Projects</strong> pane, choose <strong>File</strong> | <strong>Project Properties (Hello World App)</strong>, click <strong>Libraries</strong>, then select <strong>JDK 1.8</strong> in the <strong>Java Platform</strong> pulldown menu. You should see a screen similar to the following:</p>
+                                    
+                                    <img src="https://docs.oracle.com/javase/tutorial/figures/getStarted/nb-javatutorial-properties2.png">
+                                    <figcaption>The IDE is now configured for JDK 8.</figcaption>
+                                    
+                                    <hr>
+                                    
+                                    <!-- Add Code -->
+                                    <h5 id="Add_Code"><strong>Add Code to the Generated Source File</strong></h5>
+                                    <p>When you created this project, you left the <strong>Create Main Class</strong> checkbox selected in the <strong>New Project</strong> wizard. The IDE has therefore created a skeleton class for you. You can add the "Hello World!" message to the skeleton code by replacing the line:</p>
+                                    
+                                    <code><pre>// TODO code application logic here</pre></code>
+                                    
+                                    <p>with the line:</p>
+                                    
+                                    <code><pre>System.out.println("Hello World!"); // Display the string.</pre></code>
+                                    
+                                    <p>Optionally, you can replace these four lines of generated code:</p>
+                                    
+                                    <code>
+                                        <pre>
+ /**
+ *
+ * @author
+ */</pre>
+                                    </code>
+                                    
+                                    <p>with these lines:</p>
+                                    <code>
+                                    <pre>
+/**
+ * The HelloWorldApp class implements an application that
+ * simply prints "Hello World!" to standard output.
+ */
+                                    </pre>
+                                    </code>
+                                    
+                                    <p>These four lines are a code comment and do not affect how the program runs. Later sections of this tutorial explain the use and format of code comments.</p>
+                                    
+                                    <p style="display: inline-flex;"><b>Be Careful When You Type</b> <img src="https://docs.oracle.com/javase/tutorial/figures/getStarted/typeA.gif" alt="Capital letter A" style="width:50px; height: 50px; position: relative; margin-left: 10px;"> <img src="https://docs.oracle.com/javase/tutorial/figures/getStarted/typea2.gif" alt="Small letter A" style="width:50px; height: 50px; position: relative;"></p>
+                                    
+                                    <hr>
+                                    
+                                    <!-- note to remember -->
+                                    <div class="note" style="width: 85%; font-size: 10pt; margin-left: 5%;">
+                                        <p><strong>Note</strong>: Type all code, commands, and file names exactly as shown. Both the compiler (<code>javac</code>) and launcher (<code>java</code>) are <em>case-sensitive</em>, so you must capitalize consistently.</p>
+                                    <p><code>HelloWorldApp</code> is <em>not</em> the same as <code>helloworldapp</code>.</p>
+                                    </div>
+                                    
+                                    <hr>
+                                    
+                                    <p>Save your changes by choosing <strong>File</strong> | <strong>Save</strong>.</p>
+                                    
+                                    <p>The file should look something like the following:</p>
+                                    
+                                    <code>
+                                        <pre>/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+package helloworldapp;
+
+/**
+ * The HelloWorldApp class implements an application that
+ * simply prints "Hello World!" to standard output.
+ */
+public class HelloWorldApp {
+
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        System.out.println("Hello World!"); // Display the string.
+    }
+
+}
+                                        </pre>
+                                    </code>
+                                    
+                                    <!-- Compile the Source File with Netbeans IDE -->
+                                    <h5 id="Compile_the_Source_File_Netbeans_IDE" style="margin-top: 5%;"><strong>Compile the Source File into a .class File</strong></h5>
+                                    <p>To compile your source file, choose <strong>Run</strong> | <strong>Build Project (Hello World App)</strong> from the IDE's main menu</p>
+                                    
+                                    <p>The Output window opens and displays output similar to what you see in the following figure:</p>
+                                    
+                                    <img src="https://docs.oracle.com/javase/tutorial/figures/getStarted/nb-javatutorial-project-compiled.png">
+                                    <figcaption>Output window showing results of building the HelloWorld project.</figcaption>
+                                    
+                                    <p>If the build output concludes with the statement <code>BUILD SUCCESSFUL</code>, congratulations! You have successfully compiled your program!</p>
+                                    
+                                    <p>If the build output concludes with the statement <code>BUILD FAILED</code>, you probably have a syntax error in your code. Errors are reported in the Output window as hyperlinked text. You double-click such a hyperlink to navigate to the source of an error. You can then fix the error and once again choose <strong>Run</strong> | <strong>Build Project</strong>.</p>
+                                    
+                                    <p>When you build the project, the bytecode file <code>HelloWorldApp.class</code> is generated. You can see where the new file is generated by opening the <strong>Files</strong> window and expanding the <strong>Hello World App/build/classes/helloworldapp</strong> node as shown in the following figure.</p>
+                                    
+                                    <img src="https://docs.oracle.com/javase/tutorial/figures/getStarted/nb-javatutorial-files-window.png">
+                                    <figcaption>Files window, showing the generated .class file.</figcaption>
+                                    
+                                    <p>Now that you have built the project, you can run your program.</p>
+                                    
+                                    <!-- Run the Program with Netbeans IDE -->
+                                    <h5 id="Run_the_Program_Netbeans_IDE"><strong>Run the Program</strong></h5>
+                                    <p>From the IDE's menu bar, choose <strong>Run</strong> | <strong>Run Main Project</strong>.</p>
+                                    
+                                    <p>The next figure shows what you should now see.</p>
+                                    <img src="https://docs.oracle.com/javase/tutorial/figures/getStarted/nb-javatutorial-project-run.png">
+                                    <figcaption>The program prints "Hello World!" to the Output window (along with other output from the build script).</figcaption>
+                                    
+                                    <p>Congratulations! Your program works!</p>
+                                    
+                                    <!-- Continuing the tutorial -->
+                                    <h4 id="Continuing_the_Tutorial">Continuing the Tutorial with the NetBeans IDE</h4>
+                                    <p>The next few pages of the tutorial will explain the code in this simple application. After that, the lessons go deeper into core language features and provide many more examples. Although the rest of the tutorial does not give specific instructions about using the NetBeans IDE, you can easily use the IDE to write and run the sample code. The following are some tips on using the IDE and explanations of some IDE behavior that you are likely to see:</p>
+                                    <ul>
+                                        <li>Once you have created a project in the IDE, you can add files to the project using the <strong>New File</strong> wizard. Choose <strong>File</strong> | <strong>New File</strong>, and then select a template in the wizard, such as the Empty Java File template.</li>
+                                        <li>You can compile and run an individual file (as opposed to a whole project) using the IDE's <strong>Compile File</strong> (F9) and <strong>Run File</strong> (Shift-F6) commands. If you use the <strong>Run Main Project command</strong>, the IDE will run the file that the IDE associates as the main class of the main project. Therefore, if you create an additional class in your HelloWorldApp project and then try to run that file with the <strong>Run Main Project</strong> command, the IDE will run the <code>HelloWorldApp</code> file instead.</li>
+                                        <li>You might want to create separate IDE projects for sample applications that include more than one source file.</li>
+                                        <li>As you are typing in the IDE, a code completion box might periodically appear. You can either ignore the code completion box and keep typing, or you can select one of the suggested expressions. If you would prefer not to have the code completion box automatically appear, you can turn off the feature. Choose <strong>Tools</strong> | <strong>Options</strong> | <strong>Editor</strong>, click the <strong>Code Completion</strong> tab and clear the <strong>Auto Popup Completion Window</strong> checkbox.</li>
+                                        <li>If you want to rename the node for a source file in the <strong>Projects</strong> window, choose <strong>Refactor</strong> from IDE's main menu. The IDE prompts you with the <strong>Rename</strong> dialog box to lead you through the options of renaming the class and the updating of code that refers to that class. Make the changes and click <strong>Refactor</strong> to apply the changes. This sequence of clicks might seem unnecessary if you have just a single class in your project, but it is very useful when your changes affect other parts of your code in larger projects.</li>
+                                        <li>For a more thorough guide to the features of the NetBeans IDE, see the <a href="https://netbeans.org/kb/" target="_blank" class="section-links">NetBeans Documentation</a> page.</li>
+                                    </ul>
+                                </article>
+
+                                <!-- second article -->
+                                <article id="Microsoft_Windows">
+                                    <h3><q>Hello World!</q> for Microsoft Windows</h3>
+                                    <p>It's time to write your first application! The following instructions are for users of Windows Vista, Windows 7, and Windows 8. Instructions for other platforms are in <a href="#SolarisOS_and_Linux" class="section-links">"Hello World!" for Solaris OS and Linux</a> and <a href="#Netbeans_IDE" class="section-links">"Hello World!" for the NetBeans IDE</a>.</p>
+                                    
+                                    <p>If you encounter problems with the instructions on this page, consult the <a href="https://docs.oracle.com/javase/tutorial/getStarted/problems/index.html" target="_blank" class="section-links">Common Problems (and Their Solutions)</a>.</p>
+                                    <ul>
+                                        <li><a href="#A_Checklist_Microsoft_Windows" class="section-links">A Checklist</a></li>
+                                        <li><a href="#Creating_Your_First_Application_Microsoft_Windows" class="section-links">Creating Your First Application</a>
+                                            <ul>
+                                                <li><a href="#Create_Source_File_Microsoft_Windows" class="section-links">Create a Source File</a></li>
+                                                <li><a href="#Compile_Source_File_Microsoft_Windows" class="section-links">Compile the Source File into a <code>.class</code> File</a></li>
+                                                <li><a href="#Run_the_Program_Microsoft_Windows" class="section-links">Run the Program</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    
+                                    <hr>
+                                    
+                                    <!-- Checklist Part for Microsoft Windows -->
+                                    <h4 id="A_Checklist_Microsoft_Windows">A Checklist <i class="fas fa-clipboard-check"></i></h4>
+                                    <p>To write your first program, you'll need:</p>
+                                    <ol>
+                                        <li><strong>The Java SE Development Kit 8 (JDK 8)</strong>
+                                            <p>You can <a href="https://www.oracle.com/technetwork/java/javase/downloads/index.html" target="_blank" class="section-links">download the Windows version now</a>. (Make sure you download the JDK, <em>not</em> the JRE.) Consult the <a href="https://docs.oracle.com/javase/8/docs/technotes/guides/install/install_overview.html" target="_blank" class="section-links">installation instructions</a>.</p>
+                                        </li>
+                                        <li><strong>A text editor</strong>
+                                            <p>In this example, we'll use Pico, an editor available for many UNIX-based platforms. You can easily adapt these instructions if you use a different text editor, such as <code>vi</code> or <code>emacs</code>.</p>
+                                        </li>
+                                    </ol>
+                                    
+                                    <p>These two items are all you'll need to write your first application.</p>
+                                    
+                                    <hr>
+                                    
+                                    <!-- Creating your first application with Microsfot Windows -->
+                                    <h4 id="Creating_Your_First_Application_Microsoft_Windows">Creating Your First Application</h4>
+                                    <p>Your first application, <code>HelloWorldApp</code>, will simply display the greeting "Hello world!". To create this program, you will:</p>
+                                    <ul>
+                                        <li><b>Create a source file</b> 
+                                            <p>A source file contains code, written in the Java programming language, that you and other programmers can understand. You can use any text editor to create and edit source files.</p>
+                                        </li>
+                                        <li><b>Compile the source file into a .class file</b>
+                                            <p>The Java programming language <em>compiler</em> (<code>javac</code>) takes your source file and translates its text into instructions that the Java virtual machine can understand. The instructions contained within this file are known as <em>bytecodes</em>.</p>
+                                        </li>
+                                        <li><b>Run the program</b>
+                                            <p>The Java application <em>launcher tool</em> (<code>java</code>) uses the Java virtual machine to run your application.</p>
+                                        </li>
+                                    </ul>
+                                    
+                                    <!-- Create Source File with Microsoft Windows -->
+                                    <h5 id="Create_Source_File_Microsoft_Windows"><strong>Create a Source File</strong></h5>
+                                    <p>To create a source file, you have two options:</p>
+                                    <ul>
+                                        <li>You can save the file <code><a href="https://docs.oracle.com/javase/tutorial/displayCode.html?code=https://docs.oracle.com/javase/tutorial/getStarted/application/examples/HelloWorldApp.java" target="_blank" class="section-links">HelloWorldApp.java</a></code> on your computer and avoid a lot of typing. Then, you can go straight to <a href="#Compile_Source_File_Microsoft_Windows" class="section-links">Compile the Source File into a .class File</a>.</li>
+                                        <li>Or, you can use the following (longer) instructions.</li>
+                                    </ul>
+                                    
+                                    <p>First, start your editor. You can launch the Notepad editor from the <strong>Start</strong> menu by selecting <strong>Programs > Accessories > Notepad</strong>. In a new document, type in the following code:</p>
+                                    
+                                    <code>
+                                        <pre>/**
+ * The HelloWorldApp class implements an application that
+ * simply prints "Hello World!" to standard output.
+ */
+class HelloWorldApp {
+    public static void main(String[] args) {
+        System.out.println("Hello World!"); // Display the string.
+    }
+}</pre>
+                                    </code>
+                                    
+                                    <p style="display: inline-flex;"><b>Be Careful When You Type</b> <img src="https://docs.oracle.com/javase/tutorial/figures/getStarted/typeA.gif" alt="Capital letter A" style="width:50px; height: 50px; position: relative; margin-left: 10px;"> <img src="https://docs.oracle.com/javase/tutorial/figures/getStarted/typea2.gif" alt="Small letter A" style="width:50px; height: 50px; position: relative;"></p>
+                                    
+                                    <hr>
+                                    
+                                    <!-- note to remember -->
+                                    <div class="note" style="width: 85%; font-size: 10pt; margin-left: 5%;">
+                                        <p><strong>Note</strong>: Type all code, commands, and file names exactly as shown. Both the compiler (<code>javac</code>) and launcher (<code>java</code>) are <em>case-sensitive</em>, so you must capitalize consistently.</p>
+                                    <p><code>HelloWorldApp</code> is <em>not</em> the same as <code>helloworldapp</code>.</p>
+                                    </div>
+                                    
+                                    <hr>
+                                    
+                                    <p>Save the code in a file with the name <code>HelloWorldApp.java</code>. To do this in Notepad, first choose the <strong>File > Save As</strong> menu item. Then, in the <strong>Save As</strong> dialog box:</p>
+                                    <ol>
+                                        <li>Using the <strong>Save in</strong> combo box, specify the folder (directory) where you'll save your file. In this example, the directory is <code>myapplication</code> on the <code>C</code> drive.</li>
+                                        <li>In the <strong>File name</strong> text field, type <code>"HelloWorldApp.java"</code>, including the quotation marks.</li>
+                                        <li>From the <strong>Save as type</strong> combo box, choose <strong>Text Documents (*.txt)</strong>.</li>
+                                        <li>In the <strong>Encoding</strong> combo box, leave the encoding as ANSI.</li>
+                                    </ol>
+                                    
+                                    <p>When you're finished, the dialog box should look like this.</p>
+                                    
+                                    <img src="https://docs.oracle.com/javase/tutorial/figures/getStarted/saveas.png">
+                                    <figcaption>The Save As dialog just before you click <strong>Save</strong>.</figcaption>
+                                    
+                                    <p>Now click <strong>Save</strong>, and exit Notepad.</p>
+                                    
+                                    <!-- Compile Source File with Microsoft Windows -->
+                                    <h5 id="Compile_Source_File_Microsoft_Windows"><strong>Compile the Source File into  a .class File</strong></h5>
+                                    <p>Bring up a shell, or "command," window. You can do this from the <strong>Start</strong> menu by choosing <strong>Run...</strong> and then entering <code>cmd</code>. The shell window should look similar to the following figure.</p>
+                                    
+                                    <img src="https://docs.oracle.com/javase/tutorial/figures/getStarted/dos.png">
+                                    <figcaption>A shell window.</figcaption>
+                                    
+                                    <p>The prompt shows your <em>current directory</em>. When you bring up the prompt, your current directory is usually your home directory for Windows XP (as shown in the preceding figure.</p>
+                                    
+                                    <p>To compile your source file, change your current directory to the directory where your file is located. For example, if your source directory is <code>myapplication</code> on the <code>C</code> drive, type the following command at the prompt and press <strong>Enter</strong>:</p>
+                                    
+                                    <code><pre>cd C:\myapplication</pre></code>
+                                    
+                                    <p>Now the prompt should change to <code>C:\myapplication></code>.</p>
+                                    
+                                    <hr>
+                                    
+                                    <!-- note to remember -->
+                                    <div class="note" style="width: 85%; font-size: 10pt; margin-left: 5%;">
+                                        <p><strong>Note:</strong> To change to a directory on a different drive, you must type an extra command: the name of the drive. For example, to change to the myapplication directory on the D drive, you must enter D:, as follows:</p>
+                                        <code><pre>C:\>D:</pre></code>
+                                        <code><pre>D:\>cd myapplication</pre></code>
+                                        <code><pre>D:\myapplication></pre></code>
+                                    </div>
+                                    
+                                    <hr>
+                                    
+                                    <p>If you enter <code>dir</code> at the prompt, you should see your source file, as follows:</p>
+                                    
+                                    <code>
+                                        <pre>C:\>cd myapplication
+
+C:\myapplication>dir
+ Volume in drive C is System
+ Volume Serial Number is F2E8-C8CC
+
+ Directory of C:\myapplication
+
+2014-04-24  01:34 PM    &lt;DIR&gt;          .
+2014-04-24  01:34 PM    &lt;DIR&gt;          ..
+2014-04-24  01:34 PM               267 HelloWorldApp.java
+               1 File(s)            267 bytes
+               2 Dir(s)  93,297,991,680 bytes free
+
+C:\myapplication></pre>
+                                    </code>
+                                    
+                                    <p>Now you are ready to compile. At the prompt, type the following command and press <strong>Enter</strong>.</p>
+                                    
+                                    <code><pre>javac HelloWorldApp.java</pre></code>
+                                    
+                                    <p>The compiler has generated a bytecode file, <code>HelloWorldApp.class</code>. At the prompt, type <code>dir</code> to see the new file that was generated as follows:</p>
+                                    
+                                    <code>
+                                        <pre>C:\myapplication>javac HelloWorldApp.java
+
+C:\myapplication>dir
+ Volume in drive C is System
+ Volume Serial Number is F2E8-C8CC
+
+ Directory of C:\myapplication
+
+2014-04-24  02:07 PM    &lt;DIR&gt;          .
+2014-04-24  02:07 PM    &lt;DIR&gt;          ..
+2014-04-24  02:07 PM               432 HelloWorldApp.class
+2014-04-24  01:34 PM               267 HelloWorldApp.java
+               2 File(s)            699 bytes
+               2 Dir(s)  93,298,032,640 bytes free
+
+C:\myapplication></pre>
+                                    </code>
+                                    
+                                    <p>Now that you have a <code>.class</code> file, you can run your program.</p>
+                                    
+                                    <p>If you encounter problems with the instructions in this step, consult the <a href="https://docs.oracle.com/javase/tutorial/getStarted/problems/index.html" target="_blank" class="section-links">Common Problems (and Their Solutions)</a>.</p>
+                                    
+                                    <!-- Run the Program -->
+                                    <h5 id="Run_the_Program_Microsoft_Windows"><strong>Run the Program</strong></h5>
+                                    <p>In the same directory, enter the following command at the prompt:</p>
+                                    
+                                    <code><pre>java -cp . HelloWorldApp</pre></code>
+                                    
+                                    <p>You should see the following on your screen:</p>
+                                    
+                                    <code>
+                                        <pre>C:\myapplication>java -cp . HelloWorldApp
+Hello World!
+
+C:\myapplication>
+                                        </pre>
+                                    </code>
+                                    
+                                    <p>Congratulations! Your program works!</p>
+                                    
+                                    <p>If you encounter problems with the instructions in this step, consult the <a href="https://docs.oracle.com/javase/tutorial/getStarted/problems/index.html" target="_blank" class="section-links">Common Problems (and Their Solutions)</a>.</p>
+                                </article>
+                                
+                                <!-- third article -->
+                                <article id="SolarisOS_and_Linux">
+                                    <h3><q>Hello World!</q> for Solaris OS and Linux</h3>
+                                    <p>It's time to write your first application! These detailed instructions are for users of Solaris OS and Linux. Instructions for other platforms are in <a href="#Microsoft_Windows" class="section-links">"Hello World!" for Microsoft Windows</a> and <a href="#Netbeans_IDE" class="section-links">"Hello World!" for the NetBeans IDE</a>.</p>
+                                    
+                                    <p>If you encounter problems with the instructions on this page, consult the <a href="https://docs.oracle.com/javase/tutorial/getStarted/problems/index.html" target="_blank" class="section-links">Common Problems (and Their Solutions)</a>.</p>
+                                    <ul>
+                                        <li><a href="#A_Checklist_SolarisOS_and_Linux" class="section-links">A Checklist</a></li>
+                                        <li><a href="#Creating_Your_First_Application_SolarisOS_and_Linux" class="section-links">Creating Your First Application</a>
+                                            <ul>
+                                                <li><a href="#Create_Source_File_SolarisOS_and_Linux" class="section-links">Create a Source File</a></li>
+                                                <li><a href="#Compile_Source_File_SolarisOS_and_Linux" class="section-links">Compile the Source File into a <code>.class</code> File</a></li>
+                                                <li><a href="#Run_the_Program_SolarisOS_and_Linux" class="section-links">Run the Program</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    
+                                    <hr>
+                                    
+                                    <!-- Checklist Part for Solaris OS and Linux -->
+                                    <h4 id="A_Checklist_SolarisOS_and_Linux">A Checklist <i class="fas fa-clipboard-check"></i></h4>
+                                    <p>To write your first program, you'll need:</p>
+                                    <ol>
+                                        <li><strong>The Java SE Development Kit 8 (JDK 8)</strong>
+                                            <p>You can <a href="https://www.oracle.com/technetwork/java/javase/downloads/index.html" target="_blank" class="section-links">download the Solaris OS or Linux version now</a>. (Make sure you download the JDK, <em>not</em> the JRE.) Consult the <a href="https://docs.oracle.com/javase/8/docs/technotes/guides/install/install_overview.html" target="_blank" class="section-links">installation instructions</a>.</p>
+                                        </li>
+                                        <li><strong>A text editor</strong>
+                                            <p>In this example, we'll use Pico, an editor available for many UNIX-based platforms. You can easily adapt these instructions if you use a different text editor, such as <code>vi</code> or <code>emacs</code>.</p>
+                                        </li>
+                                    </ol>
+                                    
+                                    <p>These two items are all you'll need to write your first application.</p>
+                                    
+                                    <hr>
+                                    
+                                    <!-- Creating your first application with Solaris OS and Linux -->
+                                    <h4 id="Creating_Your_First_Application_SolarisOS_and_Linux">Creating Your First Application</h4>
+                                    <p>Your first application, <code>HelloWorldApp</code>, will simply display the greeting "Hello world!". To create this program, you will:</p>
+                                    <ul>
+                                        <li><b>Create a source file</b> 
+                                            <p>A source file contains code, written in the Java programming language, that you and other programmers can understand. You can use any text editor to create and edit source files.</p>
+                                        </li>
+                                        <li><b>Compile the source file into a .class file</b>
+                                            <p>The Java programming language <em>compiler</em> (<code>javac</code>) takes your source file and translates its text into instructions that the Java virtual machine can understand. The instructions contained within this file are known as <em>bytecodes</em>.</p>
+                                        </li>
+                                        <li><b>Run the program</b>
+                                            <p>The Java application <em>launcher tool</em> (<code>java</code>) uses the Java virtual machine to run your application.</p>
+                                        </li>
+                                    </ul>
+                                    
+                                    <!-- Create Source File with Solaris OS and Linux -->
+                                    <h5 id="Create_Source_File_SolarisOS_and_Linux"><strong>Create a Source File</strong></h5>
+                                    <p>To create a source file, you have two options:</p>
+                                    <ul>
+                                        <li>You can save the file <code><a href="https://docs.oracle.com/javase/tutorial/getStarted/application/examples/HelloWorldApp.java" class="section-links" target="_blank">HelloWorldApp.java</a></code> on your computer and avoid a lot of typing. Then, you can go straight to <a href="#Compile_Source_File_SolarisOS_and_Linux" class="section-links">Compile the Source File into a .class File</a>.</li>
+                                        <li>Or, you can use the following (longer) instructions.</li>
+                                    </ul>
+                                    
+                                    <p>First, open a shell, or "terminal," window.</p>
+                                    
+                                    <img src="https://docs.oracle.com/javase/tutorial/figures/getStarted/prompt.gif">
+                                    <figcaption>A new terminal window.</figcaption>
+                                    
+                                    <p>When you first bring up the prompt, your <em>current directory</em> will usually be your <em>home directory</em>. You can change your current directory to your home directory at any time by typing <code>cd</code> at the prompt and then pressing <strong>Return</strong>.</p>
+                                    
+                                    <p>The source files you create should be kept in a separate directory. You can create a directory by using the command <code>mkdir</code>. For example, to create the directory <code>examples/java</code> in the <code>/tmp</code> directory, use the following commands:</p>
+                                    
+                                    <code>
+                                        <pre>cd /tmp
+mkdir examples
+cd examples
+mkdir java</pre>
+                                    </code>
+                                    
+                                    <p>To change your current directory to this new directory, you then enter:</p>
+                                    
+                                    <code>
+                                        <pre>cd /tmp/examples/java</pre>
+                                    </code>
+                                    
+                                    <p>Now you can start creating your source file.</p>
+                                    
+                                    <p>Start the Pico editor by typing <code>pico</code> at the prompt and pressing <strong>Return</strong>. If the system responds with the message <code>pico: command not found</code>, then Pico is most likely unavailable. Consult your system administrator for more information, or use another editor.</p>
+                                    
+                                    <p>When you start Pico, it'll display a new, blank <em>buffer</em>. This is the area in which you will type your code.</p>
+                                    
+                                    <p>Type the following code into the new buffer:</p>
+                                    
+                                    <code>
+                                        <pre>/**
+ * The HelloWorldApp class implements an application that
+ * simply prints "Hello World!" to standard output.
+ */
+class HelloWorldApp {
+    public static void main(String[] args) {
+        System.out.println("Hello World!"); // Display the string.
+    }
+}</pre>
+                                    </code>
+                                    
+                                    <p style="display: inline-flex;"><b>Be Careful When You Type</b> <img src="https://docs.oracle.com/javase/tutorial/figures/getStarted/typeA.gif" alt="Capital letter A" style="width:50px; height: 50px; position: relative; margin-left: 10px;"> <img src="https://docs.oracle.com/javase/tutorial/figures/getStarted/typea2.gif" alt="Small letter A" style="width:50px; height: 50px; position: relative;"></p>
+                                    
+                                    <hr>
+                                    
+                                    <!-- note to remember -->
+                                    <div class="note" style="width: 85%; font-size: 10pt; margin-left: 5%;">
+                                        <p><strong>Note</strong>: Type all code, commands, and file names exactly as shown. Both the compiler (<code>javac</code>) and launcher (<code>java</code>) are <em>case-sensitive</em>, so you must capitalize consistently.</p>
+                                    <p><code>HelloWorldApp</code> is <em>not</em> the same as <code>helloworldapp</code>.</p>
+                                    </div>
+                                    
+                                    <hr>
+                                    
+                                    <p>Save the code in a file with the name <code>HelloWorldApp.java</code>. In the Pico editor, you do this by typing <strong>Ctrl-O</strong> and then, at the bottom where you see the prompt <code>File Name to write:</code>, entering the directory in which you wish to create the file, followed by <code>HelloWorldApp.java</code>. For example, if you wish to save <code>HelloWorldApp.java</code> in the directory <code>/tmp/examples/java</code>, then you type <code>/tmp/examples/java/HelloWorldApp.java</code> and press <strong>Return</strong>.</p>
+                                    
+                                    <p>You can type <strong>Ctrl-X</strong> to exit Pico.</p>
+                                    
+                                    <!-- Compile Source File with Solaris OS and Linux -->
+                                    <h5 id="Compile_Source_File_SolarisOS_and_Linux"><strong>Compile the Source File into  a .class File</strong></h5>
+                                    <p>Bring up another shell window. To compile your source file, change your current directory to the directory where your file is located. For example, if your source directory is <code>/tmp/examples/java</code>, type the following command at the prompt and press <strong>Return</strong>:</p>
+                                    
+                                    <code>
+                                        <pre>cd /tmp/examples/java</pre>
+                                    </code>
+                                    
+                                    <p>If you enter <code>pwd</code> at the prompt, you should see the current directory, which in this example has been changed to <code>/tmp/examples/java</code>.</p>
+                                    
+                                    <p>If you enter <code>ls</code> at the prompt, you should see your file.</p>
+                                    
+                                    <img src="https://docs.oracle.com/javase/tutorial/figures/getStarted/firstls.gif">
+                                    <figcaption>Results of the <code>ls</code> command, showing the <code>.java</code> source file.</figcaption>
+                                    
+                                    <p>Now are ready to compile the source file. At the prompt, type the following command and press <strong>Return</strong>.</p>
+                                    
+                                    <code><pre>javac HelloWorldApp.java</pre></code>
+                                    
+                                    <p>The compiler has generated a bytecode file, <code>HelloWorldApp.class</code>. At the prompt, type <code>ls</code> to see the new file that was generated: the following figure.</p>
+                                    
+                                    <img src="https://docs.oracle.com/javase/tutorial/figures/getStarted/secondls.gif">
+                                    <figcaption>Results of the <code>ls</code> command, showing the generated <code>.class</code> file.</figcaption>
+                                    
+                                    <p>Now that you have a <code>.class</code> file, you can run your program.</p>
+                                    
+                                    <p>If you encounter problems with the instructions in this step, consult the <a href="https://docs.oracle.com/javase/tutorial/getStarted/problems/index.html" target="_blank" class="section-links">Common Problems (and Their Solutions)</a>.</p>
+                                    
+                                    <!-- Run the Program -->
+                                    <h5 id="Run_the_Program_SolarisOS_and_Linux"><strong>Run the Program</strong></h5>
+                                    <p>In the same directory, enter the following command at the prompt:</p>
+                                    
+                                    <code><pre>java HelloWorldApp</pre></code>
+                                    
+                                    <p>The next figure shows what you should now see.</p>
+                                    
+                                    <img src="https://docs.oracle.com/javase/tutorial/figures/getStarted/result.gif">
+                                    <figcaption>The output prints "Hello World!" to the screen.</figcaption>
+                                    
+                                    <p>Congratulations! Your program works!</p>
+                                    
+                                    <p>If you encounter problems with the instructions in this step, consult the <a href="https://docs.oracle.com/javase/tutorial/getStarted/problems/index.html" target="_blank" class="section-links">Common Problems (and Their Solutions)</a>.</p>
+                                </article>
+                        </section>
+			</div><!-- end of main-doc container-->
+            </div><!-- end of second column -->
+            </div><!-- end of row div-->
+		 
+            <!-- footer -->
+            <div class="container-fluid footer-container">
+                <footer><p id="dev-note"><strong>Developer's Note:<br></strong>
+                    I do not own any of the following contents of this page. For more information about this topic, please visit <a href="https://docs.oracle.com/javase/tutorial/" class="section-links footer-links" target="_blank">Oracle's Java Documentation</a> page.</p>
+                
+                <p>Copyright &copy; 2018 <a href="https://codepen.io/itshally/" class="section-links footer-links" style="text-decoration: none;">itsHally</a>. All Rights Reserved.</p>
+
+                </footer>
+            </div>
+        </div>
+	</body>
+</html>	
