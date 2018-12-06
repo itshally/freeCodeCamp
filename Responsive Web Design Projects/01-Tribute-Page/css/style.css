@@ -1,0 +1,171 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #DCDCDD;
+    color: #46494C;
+    padding: 0;
+    margin: 0;
+}
+.header-content{
+    margin: auto;
+    margin-top: 5%;
+    height: auto;
+}
+#title, #header-quote, nav{
+    text-align: center;
+}
+#title{
+    margin: auto;
+    font-size: 65pt;
+    font-size-adjust: auto;
+}
+nav{
+    width: 100%;
+    height: auto;
+}
+nav a{
+    color: #46494C;
+    font-size: 14pt;
+    padding: 20px;
+
+}
+nav a:hover{
+    color: #1985A1;
+    text-decoration: none;
+}
+.short-biography{
+    display: block;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    margin-top: 5%;
+    padding: 2%;
+    line-height: 2;
+}
+.short-biography-content{
+    margin-top: 1%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+}
+#img-div{
+    display: block;
+    margin: auto;
+    height: auto;
+}
+#image{
+    margin: auto;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    height: auto;
+}
+#img-caption{
+    text-align: center;
+    font-size: 14pt;
+}
+#signature {
+    display: flex;
+    align-content: flex-end;
+    margin: auto;
+    margin-right: 5%;
+    height: auto;
+    width: 200px;
+}
+.full-biography{
+    display: block;
+    width: auto;
+    margin-bottom: 8%;
+    line-height: 1.5;
+}
+.biography-title{
+    text-align: center;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: -2.5%;
+    padding: 25px;
+}
+.section-col{
+    padding: 45px;
+    width: auto;
+    height: 100%;
+}
+.timeline{
+    margin: auto;
+    min-width: 350px;
+    max-width: 65%;
+    margin-top: 5%;
+}
+.timeline-title{
+    background-color: #4C5C68;
+    color: #DCDCDD;
+    padding: 25px;
+}
+.timeline p{
+    display: inline;
+    margin: 10px;
+}
+.list-group{
+    position: static;
+    margin-top: -32.5px;
+    margin-bottom: -25px;
+    padding: 25px;
+}
+.list-group-item{
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    background-color: #DCDCDD;
+    border-color: transparent;
+    border-left-color: #C5C3C6;
+    border-left-width: medium;
+    padding: 25px;
+}
+.fa-circle{
+    font-size: 8pt;
+    padding: 5px;
+    margin: auto;
+    margin-left: -37px;
+}
+.photo-gallery{
+    margin: auto;
+    margin-top: 2.5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+}
+.photo-gallery img{
+    margin: auto;
+    margin-right: 1%;
+    margin-bottom: 2.5%;
+    width: 250px;
+    height: 300px;
+    box-shadow: 0px 0px 50px #C5C3C6;
+}
+.more-info{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: auto;
+}
+.link-info i{
+    background-color: #C5C3C6;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    padding: 35px;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    font-size: 24pt;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.link-info a{
+    padding: 20px;
+    color: #1985A1;
+}
